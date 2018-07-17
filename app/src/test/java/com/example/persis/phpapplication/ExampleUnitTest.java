@@ -1,4 +1,4 @@
-package com.example.ankush.demodatabase;
+package com.example.persis.phpapplication;
 
 import org.junit.Test;
 

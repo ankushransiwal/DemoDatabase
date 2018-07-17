@@ -1,4 +1,4 @@
-package com.example.ankush.demodatabase;
+package com.example.persis.phpapplication;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.ankush.demodatabase", appContext.getPackageName());
+        assertEquals("com.example.persis.phpapplication", appContext.getPackageName());
     }
 }

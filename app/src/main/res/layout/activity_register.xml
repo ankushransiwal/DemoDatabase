@@ -5,49 +5,62 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:padding="16dp"
     tools:context=".Register">
 
-    <EditText
-        android:id="@+id/tvName"
-        android:layout_marginTop="80dp"
+    <TextView
+        android:id="@+id/tvWelcome"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:hint="Name" />
+        android:text="Register"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="50dp"
+        android:textStyle="italic" />
+
 
     <EditText
-        android:id="@+id/tvPassword"
-        android:layout_marginTop="20dp"
+        android:id="@+id/etUsername"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:ems="10"
-        android:inputType="textPassword"
-        android:hint="Password" />
+        android:hint="Enter Username"
+        android:inputType="textPersonName" />
 
     <EditText
-        android:id="@+id/tvContact"
+        android:id="@+id/etPassword"
         android:layout_width="match_parent"
-        android:layout_marginTop="20dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:ems="10"
-        android:inputType="number"
-        android:hint="Contact" />
+        android:hint="Enter Password"
+        android:inputType="textPersonName" />
 
     <EditText
-        android:id="@+id/tvCountry"
+        android:id="@+id/etContact"
         android:layout_width="match_parent"
-        android:layout_marginTop="20dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:hint="Country" />
+        android:hint="Enter contact"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etCountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Enter Country"
+        android:inputType="textPersonName" />
 
     <Button
-        android:id="@+id/btnInsert"
-        android:layout_width="wrap_content"
-        android:layout_marginTop="40dp"
+        android:id="@+id/btnRegister"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Insert"
-        android:layout_gravity="center"/>
+        android:text="Register" />
+
+
 </LinearLayout>
