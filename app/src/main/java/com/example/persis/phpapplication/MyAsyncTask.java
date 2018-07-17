@@ -27,7 +27,7 @@ public class MyAsyncTask extends AsyncTask<String,Void,String> {
 
     protected String doInBackground(String... params) {
 
-        String reg_url="http://10.0.2.2/project/register.php";
+        String reg_url="https://ankushransiwal.000webhostapp.com/add.php";
         String method= params[0];
         if(method.equals("register")){
 
